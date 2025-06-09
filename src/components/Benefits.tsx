@@ -81,12 +81,26 @@ const Benefits = () => {
         </div>
 
         <div className="mt-16 bg-white p-8 rounded-2xl shadow-sm">
+          <div className="text-center mb-8">
+            <h3 className="text-2xl font-bold text-gray-900 mb-4">
+              Технология Volnewmer
+            </h3>
+            <p className="text-gray-600 max-w-4xl mx-auto leading-relaxed mb-8">
+              Монополярный радиочастотный аппарат 6,78МГц с контактной системой
+              водного охлаждения
+            </p>
+            <div className="max-w-5xl mx-auto">
+              <img
+                src="https://cdn.poehali.dev/files/127c49d5-7e0d-48b1-bd53-793f709639e9.jpg"
+                alt="Технические характеристики и принцип работы Volnewmer"
+                className="w-full h-auto rounded-xl shadow-lg"
+              />
+            </div>
+          </div>
+        </div>
+
+        <div className="mt-8 bg-white p-8 rounded-2xl shadow-sm">
           <div className="text-center">
-            <Icon
-              name="Info"
-              className="mx-auto mb-4 text-blue-600"
-              size={32}
-            />
             <h3 className="text-2xl font-bold text-gray-900 mb-4">
               Важная информация
             </h3>
