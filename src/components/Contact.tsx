@@ -10,8 +10,8 @@ const Contact = () => {
   const contactInfo = [
     {
       icon: "MapPin",
-      title: "Адрес клиники",
-      details: ["г. Москва, ул. Примерная, д. 123", "ТЦ «Красота», 3 этаж"],
+      title: "Локация",
+      details: ["Санкт-Петербург", "пн-вс 10-20"],
     },
     {
       icon: "Clock",
