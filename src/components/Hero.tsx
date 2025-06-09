@@ -61,8 +61,8 @@ const Hero = () => {
           <div className="relative">
             <div className="aspect-square bg-gradient-to-br from-blue-100 to-purple-100 rounded-2xl p-8 flex items-center justify-center">
               <img
-                src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?w=500&h=500&fit=crop"
-                alt="Косметологическая процедура Volnewmer"
+                src="https://cdn.poehali.dev/files/84ff1b2d-0795-42a6-8599-60b4a0f2b927.jpg"
+                alt="Аппарат Volnewmer для омоложения кожи"
                 className="w-full h-full object-cover rounded-xl shadow-lg"
               />
             </div>
