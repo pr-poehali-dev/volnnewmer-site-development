@@ -18,11 +18,6 @@ const Contact = () => {
       title: "Режим работы",
       details: ["Пн-Пт: 9:00 - 21:00", "Сб-Вс: 10:00 - 19:00"],
     },
-    {
-      icon: "Phone",
-      title: "Телефон",
-      details: ["+7 (495) 123-45-67", "Звонки принимаются ежедневно"],
-    },
   ];
 
   return (
@@ -86,6 +81,23 @@ const Contact = () => {
                 </div>
               ))}
             </div>
+
+            <Card className="bg-gradient-to-r from-green-500 to-emerald-600 text-white">
+              <CardContent className="p-6">
+                <div className="text-center">
+                  <Icon name="Tag" size={24} className="mx-auto mb-2" />
+                  <h3 className="text-lg font-semibold mb-2">
+                    Получите скидку 10%
+                  </h3>
+                  <p className="text-green-100 mb-3">
+                    Промокод для первой процедуры
+                  </p>
+                  <div className="bg-white text-green-600 font-mono font-bold text-xl px-4 py-2 rounded">
+                    VOLNEW25
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
           </div>
 
           <div className="bg-white p-8 rounded-2xl shadow-sm">
@@ -98,7 +110,6 @@ const Contact = () => {
                 "Осмотр и диагностика состояния кожи",
                 "Определение показаний и противопоказаний",
                 "Составление индивидуального плана процедур",
-                "Расчет стоимости курса со скидками",
                 "Ответы на все ваши вопросы",
               ].map((item, index) => (
                 <div key={index} className="flex items-center gap-3">

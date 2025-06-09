@@ -35,7 +35,7 @@ const Hero = () => {
               <Button
                 variant="outline"
                 size="lg"
-                className="border-blue-600 text-blue-600 hover:bg-blue-50 px-8 py-6 text-lg"
+                className="border-blue-600 text-blue-600 hover:bg-blue-50 px-6 py-6 text-base"
               >
                 <Icon name="Phone" className="mr-2" size={20} />
                 Узнать цены
@@ -68,7 +68,7 @@ const Hero = () => {
             </div>
             <div className="absolute -bottom-4 -right-4 bg-white p-4 rounded-xl shadow-lg">
               <div className="text-center">
-                <div className="text-2xl font-bold text-blue-600">98%</div>
+                <div className="text-2xl font-bold text-blue-600">100%</div>
                 <div className="text-sm text-gray-600">
                   Удовлетворены результатом
                 </div>
