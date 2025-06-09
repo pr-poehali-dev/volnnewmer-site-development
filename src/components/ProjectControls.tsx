@@ -6,10 +6,7 @@ const ProjectControls = () => {
   const [isExpanded, setIsExpanded] = useState(false);
 
   const handleDownload = () => {
-    // Функция скачивания будет доступна позже
-    alert(
-      "Функция скачивания в разработке. Следите за обновлениями в Telegram: https://t.me/+QgiLIa1gFRY4Y2Iy",
-    );
+    window.open("https://docs.poehali.dev/deploy/github", "_blank");
   };
 
   const handleDeploy = () => {
@@ -18,6 +15,16 @@ const ProjectControls = () => {
 
   const handleGitHub = () => {
     window.open("https://docs.poehali.dev/deploy/github", "_blank");
+  };
+
+  const handleDomain = () => {
+    window.open("https://docs.poehali.dev/deploy/domain", "_blank");
+  };
+
+  const handleTelegramSetup = () => {
+    alert(
+      "Для настройки Telegram кнопок:\n1. Замените 'your_username' на ваш @username\n2. Или используйте ссылку-приглашение на канал\n3. Проверьте корректность ссылок в коде",
+    );
   };
 
   return (
@@ -41,6 +48,15 @@ const ProjectControls = () => {
             <Button
               variant="outline"
               size="sm"
+              onClick={handleDomain}
+              className="justify-start"
+            >
+              <Icon name="Link" className="mr-2" size={16} />
+              Свой домен
+            </Button>
+            <Button
+              variant="outline"
+              size="sm"
               onClick={handleGitHub}
               className="justify-start"
             >
@@ -50,11 +66,11 @@ const ProjectControls = () => {
             <Button
               variant="outline"
               size="sm"
-              onClick={handleDownload}
+              onClick={handleTelegramSetup}
               className="justify-start"
             >
-              <Icon name="Download" className="mr-2" size={16} />
-              Скачать код
+              <Icon name="MessageCircle" className="mr-2" size={16} />
+              Настроить Telegram
             </Button>
             <Button
               variant="ghost"

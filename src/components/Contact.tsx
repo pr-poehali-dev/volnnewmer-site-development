@@ -4,7 +4,7 @@ import Icon from "@/components/ui/icon";
 
 const Contact = () => {
   const handleTelegramContact = () => {
-    window.open("https://t.me/your_username", "_blank");
+    window.open("https://t.me/+QgiLIa1gFRY4Y2Iy", "_blank");
   };
 
   const contactInfo = [
