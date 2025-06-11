@@ -68,7 +68,7 @@ const Services = () => {
                   <div className="flex items-center gap-2">
                     <Icon name="Clock" size={16} className="text-gray-400" />
                     <span className="text-sm text-gray-600">
-                      Длительность: {service.duration}
+                      Длительность: 30-60 мин
                     </span>
                   </div>
                   <div className="flex items-center gap-2">
@@ -78,7 +78,7 @@ const Services = () => {
                       className="text-gray-400"
                     />
                     <span className="text-sm text-gray-600">
-                      Курс: {service.sessions}
+                      Курс: 1-4 процедуры
                     </span>
                   </div>
                 </div>
