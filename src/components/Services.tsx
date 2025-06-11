@@ -78,7 +78,7 @@ const Services = () => {
                       className="text-gray-400"
                     />
                     <span className="text-sm text-gray-600">
-                      Курс: 1-4 процедуры
+                      Курс: 1-6 процедур
                     </span>
                   </div>
                 </div>
